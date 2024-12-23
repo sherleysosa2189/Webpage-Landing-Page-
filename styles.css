@@ -1,3 +1,7 @@
+.body {
+  display: flex;
+  flex: 0 1 auto;
+}
 .header {
     display: flex;
     background-color: #1f2937;
@@ -182,18 +186,66 @@ ul {
 
 .modal {
     background-color: white;
-    display: flex;
     gap: 16px;
     padding: 20px;
+    flex: 0 1 auto;
+    justify-content: center;
 }
 
 .square {
     display: flex;
-    background-color: white;
-    padding: 100px;
-    margin: solid;
-    flex-direction: column; 
     justify-content: space-between;
+    background-color: #3882f6;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+}
+
+.right-square {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+}
+
+.offer {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-size: 24px;
+  font-weight: 900;
+  
+}
+
+.offer-text {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-size: 12px;
+}
+
+.left-square {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 200px;
+
+}
+
+.click-button {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+   color: #e5e7eb;
+   background-color: #3882f6;
+   font-weight: bold;
+   font-size: 18px;
+   display: flex;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 25px;
+   padding-right: 25px;
+   margin-left: 700px;
+   border-radius: 15px;
 }
     
   
